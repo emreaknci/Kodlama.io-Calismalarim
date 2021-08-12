@@ -17,6 +17,9 @@ namespace DegerVeReferansTipler
 
             sayilar2[0] = 999;
             Console.WriteLine("sayilar1[0]: " + sayilar1[0]); //999
+
+            //int, double, bool ... değer tip
+            //diziler, class, abstract class , interface... referans tip
         }
     }
 }
