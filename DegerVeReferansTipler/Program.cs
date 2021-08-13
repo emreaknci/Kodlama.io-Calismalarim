@@ -20,6 +20,10 @@ namespace DegerVeReferansTipler
 
             //int, double, bool ... değer tip
             //diziler, class, abstract class , interface... referans tip
+
+
+
+
         }
     }
 }
