@@ -30,19 +30,19 @@ namespace MyDictionary
             _Tkey = new TKey[0];
             _Tvalue = new TValue[0];
         }
-        public void Add(TKey tkey,TValue tvalue)
+        public void Add(TKey tKey,TValue tValue)
         {
-            TKey[] temparraykey = _Tkey;
-            TValue[] temparrayvalue = _Tvalue;
+            TKey[] tempArrayKey = _Tkey;
+            TValue[] tempArrayValue = _Tvalue;
             _Tkey = new TKey[_Tkey.Length + 1];
             _Tvalue = new TValue[_Tvalue.Length + 1];
-            for (int i = 0; i < temparraykey.Length; i++)
+            for (int i = 0; i < tempArrayKey.Length; i++)
             {
-                _Tkey[i] = temparraykey[i]; 
-                _Tvalue[i] = temparrayvalue[i];
+                _Tkey[i] = tempArrayKey[i]; 
+                _Tvalue[i] = tempArrayValue[i];
             }
-            _Tkey[_Tkey.Length - 1] = tkey;
-            _Tvalue[_Tvalue.Length - 1] = tvalue;
+            _Tkey[_Tkey.Length - 1] = tKey;
+            _Tvalue[_Tvalue.Length - 1] = tValue;
         }
         public TKey[] Keys
         {
