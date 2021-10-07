@@ -38,9 +38,9 @@ namespace GameProjectDemo
             Game game2 = new Game() { GameName = "FIFA 22", GamePrice = 419 };
             Game game3 = new Game() { GameName = "PUBG", GamePrice = 88 };
 
-            Campaigns campaign1 = new Campaigns() { CampaignName = "Haftasonuna Ozel Indirim", CampaignDiscount = 20 };
-            Campaigns campaign2 = new Campaigns() { CampaignName = "Yaza Ozel Indirim", CampaignDiscount = 45 };
-            Campaigns campaign3 = new Campaigns() { CampaignName = "Size Ozel Indirim", CampaignDiscount = 10 };
+            Campaign campaign1 = new Campaign() { CampaignName = "Haftasonuna Ozel Indirim", CampaignDiscount = 20 };
+            Campaign campaign2 = new Campaign() { CampaignName = "Yaza Ozel Indirim", CampaignDiscount = 45 };
+            Campaign campaign3 = new Campaign() { CampaignName = "Size Ozel Indirim", CampaignDiscount = 10 };
 
             Console.WriteLine("\n***************************************************************************");
             UserManager userManager = new UserManager();

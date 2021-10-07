@@ -4,7 +4,7 @@ using System.Text;
 
 namespace GameProjectDemo.Entities
 {
-    public class Campaigns
+    public class Campaign
     {
         public double CampaignDiscount { get; set; }
         public string CampaignName { get; set; }

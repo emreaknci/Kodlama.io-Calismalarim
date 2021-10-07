@@ -7,9 +7,9 @@ namespace GameProjectDemo.Abstract
 {
     interface ICampaignService
     {
-        void NewCampaign(Campaigns campaign);
-        void CampaignDelete(Campaigns campaign);
-        void CampaignUpdate(Campaigns campaign);
+        void NewCampaign(Campaign campaign);
+        void CampaignDelete(Campaign campaign);
+        void CampaignUpdate(Campaign campaign);
 
     }
 }

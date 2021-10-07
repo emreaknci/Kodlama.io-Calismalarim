@@ -8,19 +8,19 @@ namespace GameProjectDemo.Concrete
 {
     class CampaignManager : ICampaignService
     {
-        public void CampaignDelete(Campaigns campaign)
+        public void CampaignDelete(Campaign campaign)
         {
             Console.WriteLine(campaign.CampaignName + " kampanyasi sona erdi.");
                            
         }
 
-        public void CampaignUpdate(Campaigns campaign)
+        public void CampaignUpdate(Campaign campaign)
         {
             Console.WriteLine(campaign.CampaignName + " kampanyasi guncellendi." +
                            "\nGuncel kampanya indirimi %" + campaign.CampaignDiscount + " olarak belirlendi.");
         }
 
-        public void NewCampaign(Campaigns campaign)
+        public void NewCampaign(Campaign campaign)
         {
             Console.WriteLine(campaign.CampaignName+" kampanyasi olusturuldu." +
                 "\nKampanya indirimi %"+campaign.CampaignDiscount+" olarak belirlendi.");
